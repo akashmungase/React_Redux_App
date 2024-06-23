@@ -9,3 +9,49 @@
 .nav-bar li {
   display: inline-block;
 }
+
+.card-wrapper {
+  display: flex;
+  align-content: stretch;
+  align-items: center;
+  width: 500px;
+  padding: 15px;
+  margin-left: 50px;
+  border: 1px solid #bfbcbc;
+  border-radius: 5px;
+}
+
+.item {
+  padding: 10px;
+}
+
+.imgae-wrapper img {
+  width: 100px;
+}
+
+.add-to-cart img {
+  width: 50px;
+  float: right;
+  margin-right: 5%;
+}
+
+.badge {
+  display: inline-block;
+  padding: .75em .4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 1.25rem !important;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.badge-warning {
+  color: #212529;
+  background-color: #ffc107;
+  position: absolute;
+  top: 2%;
+  right: 5%;
+}

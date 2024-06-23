@@ -37,6 +37,8 @@ import PostAPI from './Components/PostAPI';
 import DeleteAPI from './Components/DeleteAPI';
 import PreviousState from './Components/PreviousState';
 import StateWithObject from './Components/StateWithObject';
+import HomeContainer from './container/HomeContainer'
+import HeaderContainer from './container/HeaderContainer'
 
 function App() {
   // function getData() {
@@ -82,7 +84,9 @@ function App() {
       {/* <PostAPI/> */}
       {/* <DeleteAPI/> */}
       {/* <PreviousState /> */}
-      <StateWithObject/>
+      {/* <StateWithObject/> */}
+      <HeaderContainer/>
+      <HomeContainer/>
     </div>
 
   );
